@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/NCERTBooksPageX-I%20Class/data.dart';
-import 'package:ncert2/Widget5%20show%20PDF%20FIle/PDFScreen%20for%20X-I%20Books/PDFScreen1.dart';
+import 'package:ncert5/Widget3%20NCERTBooks/NCERTBooksPageX-I%20Class/data.dart';
+import 'package:ncert5/Widget5%20show%20PDF%20FIle/PDFScreen%20for%20X-I%20Books/PDFScreen1.dart';
 
 class Books1 extends StatefulWidget {
   const Books1({Key key, this.chatModal}) : super(key: key);

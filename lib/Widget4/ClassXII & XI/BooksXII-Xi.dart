@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/NCERTBookPageXIIand%20XI/ClassXIIBooks.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/NCERTBookPageXIIand%20XI/XIIand%20XIdata.dart';
-import 'package:ncert2/Widget5%20show%20PDF%20FIle/PDFScreen%20For%20NCERTBooksPageXII%20andXI/PDFScreen.dart';
+import 'package:ncert5/Widget3%20NCERTBooks/NCERTBookPageXIIand%20XI/XIIand%20XIdata.dart';
+import 'package:ncert5/Widget5%20show%20PDF%20FIle/PDFScreen%20For%20NCERTBooksPageXII%20andXI/PDFScreen.dart';
 
 class Books extends StatefulWidget {
   const Books({Key key, this.classXII}) : super(key: key);
@@ -71,5 +70,4 @@ class _BooksState extends State<Books> {
       ),
     );
   }
- 
 }

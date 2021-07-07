@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371304266549",
+    "project_id": "ncert-app-7979d",
+    "storage_bucket": "ncert-app-7979d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371304266549:android:24ec9544b3cd97ce72ea7c",
+        "android_client_info": {
+          "package_name": "com.example.ncert5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371304266549-05cm5qof790jvq1a9ogith334vaht0n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE7xSlFniumVcKweECXW9szUKmm_4YrjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371304266549-05cm5qof790jvq1a9ogith334vaht0n4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

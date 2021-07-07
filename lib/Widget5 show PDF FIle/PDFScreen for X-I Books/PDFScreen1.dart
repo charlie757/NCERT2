@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/PDF%20Widget/DownloadPDF.dart';
-import 'package:ncert2/PDF%20Widget/OfflinePDF.dart';
-import 'package:ncert2/PDF%20Widget/OnlinePDF.dart';
-import 'package:ncert2/Widget5%20show%20PDF%20FIle/PDFScreen%20For%20NCERTBooksPageXII%20andXI/data.dart';
+import 'package:ncert5/PDFWidget/DownloadPDF.dart';
+import 'package:ncert5/PDFWidget/OfflinePDF.dart';
+import 'package:ncert5/Widget5%20show%20PDF%20FIle/PDFScreen%20For%20NCERTBooksPageXII%20andXI/data.dart';
 
 class PDFScreen1 extends StatelessWidget {
   const PDFScreen1({Key key}) : super(key: key);
@@ -59,7 +58,8 @@ class PDFScreen1 extends StatelessWidget {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context) => PDF()));
+                                            builder: (context) =>
+                                                OfflinePDF()));
                                   },
                                   child: Container(
                                     alignment: Alignment.center,
@@ -77,7 +77,8 @@ class PDFScreen1 extends StatelessWidget {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context) => PDF1()));
+                                            builder: (context) =>
+                                                OfflinePDF()));
                                   },
                                   child: Container(
                                     alignment: Alignment.center,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/NCERTBookPageXIIand%20XI/XIIand%20XIdata.dart';
-import 'package:ncert2/Widget4/ClassXII%20&%20XI/BooksXII-Xi.dart';
+import 'package:ncert5/Widget4/ClassXII%20&%20XI/BooksXII-Xi.dart';
+
+import 'XIIand XIdata.dart';
 
 class ClassXIIBooks extends StatelessWidget {
   const ClassXIIBooks({Key key}) : super(key: key);

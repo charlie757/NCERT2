@@ -30,6 +30,8 @@ dependencies:
   ext_storage: ^1.0.3
   http:
   dio:
+  firebase_auth:
+  flutter_circle_color_picker:
 
 
 

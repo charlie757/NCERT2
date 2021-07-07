@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/Widget%202/data.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/data.dart';
-import 'package:ncert2/Widget5%20show%20PDF%20FIle/PDFScreen%20for%20X-I%20Books/PDFScreen1.dart';
+import 'package:ncert5/Widget2/data.dart';
+import 'package:ncert5/Widget5%20show%20PDF%20FIle/PDFScreen%20for%20X-I%20Books/PDFScreen1.dart';
+
+import 'data.dart';
 
 class NCERTNotesPage extends StatelessWidget {
   const NCERTNotesPage({Key key, this.ncertBooks}) : super(key: key);

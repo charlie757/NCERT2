@@ -1,14 +1,14 @@
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 
-class PDF extends StatefulWidget {
-  const PDF({Key key}) : super(key: key);
+class OnlinePDF extends StatefulWidget {
+  const OnlinePDF({Key key}) : super(key: key);
 
   @override
-  _PDFState createState() => _PDFState();
+  _OnlinePDFState createState() => _OnlinePDFState();
 }
 
-class _PDFState extends State<PDF> {
+class _OnlinePDFState extends State<OnlinePDF> {
   bool _isLoading = true;
   PDFDocument document;
 

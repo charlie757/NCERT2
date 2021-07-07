@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/PDF%20Widget/Chapter4PDF.dart';
-import 'package:ncert2/PDF%20Widget/Chapter5PDF.dart';
-import 'package:ncert2/PDF%20Widget/Chapter6PDF.dart';
-import 'package:ncert2/PDF%20Widget/DownloadPDF.dart';
-import 'package:ncert2/PDF%20Widget/MathChapterPDF%20Widget/Chapter1PDF.dart';
-import 'package:ncert2/PDF%20Widget/MathChapterPDF%20Widget/Chapter2PDF.dart';
-import 'package:ncert2/PDF%20Widget/MathChapterPDF%20Widget/Chapter3PDF.dart';
-import 'package:ncert2/PDF%20Widget/OfflinePDF.dart';
-import 'package:ncert2/PDF%20Widget/OnlinePDF.dart';
-import 'package:ncert2/Widget5%20show%20PDF%20FIle/PDFScreen%20For%20NCERTBooksPageXII%20andXI/data.dart';
+import 'package:ncert5/PDFWidget/Chapter1PDF.dart';
+import 'package:ncert5/PDFWidget/Chapter2PDF.dart';
+import 'package:ncert5/PDFWidget/Chapter3PDF.dart';
+import 'package:ncert5/PDFWidget/Chapter4PDF.dart';
+import 'package:ncert5/PDFWidget/Chapter5PDF.dart';
+import 'package:ncert5/PDFWidget/Chapter6PDF.dart';
+import 'package:ncert5/PDFWidget/DownloadPDF.dart';
+import 'package:ncert5/PDFWidget/OnlinePDF.dart';
 
 class PDFScreen extends StatelessWidget {
   const PDFScreen({Key key}) : super(key: key);
@@ -37,7 +35,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),
@@ -61,7 +59,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),
@@ -85,7 +83,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),
@@ -109,7 +107,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),
@@ -133,7 +131,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),
@@ -157,7 +155,7 @@ class PDFScreen extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        online(width, context, PDF()),
+                        online(width, context, OnlinePDF()),
                         SizedBox(
                           width: 10,
                         ),

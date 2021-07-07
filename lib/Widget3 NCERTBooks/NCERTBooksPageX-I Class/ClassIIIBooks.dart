@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ncert2/Widget3%20NCERT%20Books/NCERTBooksPageX-I%20Class/data.dart';
-import 'package:ncert2/Widget4/Class%20X-I/BooksX-I.dart';
+import 'package:ncert5/Widget4/Class%20X-I/BooksX-I.dart';
+
+import 'data.dart';
 
 class ClassIIIBooks extends StatelessWidget {
   const ClassIIIBooks({Key key}) : super(key: key);
