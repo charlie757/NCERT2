@@ -1,8 +1,12 @@
 import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ncert5/AdminPanelWidget/Controllers/MenuControllers.dart';
+import 'package:ncert5/AdminPanelWidget/screens/main/main_screen.dart';
 import 'package:ncert5/LoginandReg%20Widget/LoginPage.dart';
 import 'package:ncert5/PDFWidget/DownloadPDF.dart';
+import 'package:ncert5/WebViewWidget/WebView.dart';
+import 'package:provider/provider.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({
@@ -56,6 +60,25 @@ class MyDrawer extends StatelessWidget {
                   title: Text("Dark Mode"),
                   leading: Icon(Icons.invert_colors_on),
                 ),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => MultiProvider(
+                                  providers: [
+                                    ChangeNotifierProvider(
+                                      create: (context) => MenuController(),
+                                    ),
+                                  ],
+                                  child: MainScreen(),
+                                )));
+                  },
+                  child: ListTile(
+                    title: Text("Dashboard"),
+                    leading: Icon(Icons.invert_colors_on),
+                  ),
+                ),
                 Divider(color: Colors.black),
                 Text("Android Apps"),
                 ListTile(
@@ -85,9 +108,17 @@ class MyDrawer extends StatelessWidget {
                 ),
                 Divider(color: Colors.black),
                 Text("Important"),
-                ListTile(
-                  title: Text("Security"),
-                  leading: Icon(Icons.security),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => WebViewExample()));
+                  },
+                  child: ListTile(
+                    title: Text("Security"),
+                    leading: Icon(Icons.security),
+                  ),
                 ),
                 InkWell(
                   onTap: () {
